@@ -31,7 +31,6 @@ python extract_cert.py
 
 2. Attack Detection:
 Navigate to the Detector module to run the analysis against the extracted certificates.
-```Bash
 cd MITM_Detector
 python run_check.py
 Proof of Concept
