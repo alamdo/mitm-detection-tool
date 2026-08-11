@@ -1,0 +1,96 @@
+================================================================================
+Thời gian: 2025-12-01 14:20:56
+Verdict : LIKELY_MITM
+
+
+=== MITM Certificate Detector ===
+
+Verdict      : LIKELY_MITM
+Risk Score   : 1.0
+Suspicious   : True
+
+Triggered Rules:
+ - R001_FINGERPRINT_MISMATCH
+ - R002_ISSUER_MISMATCH
+ - R003_SAN_MISMATCH
+ - R004_CN_MISMATCH
+
+=== Compare Details ===
+cn_match            : False
+issuer_match        : False
+san_match           : False
+validity_overlap    : True
+fingerprint_match   : False
+
+
+[stderr]
+C:\Users\nghoa\MITM_Detector_Project\analyzer.py:50: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_before_utc.
+  not_before = cert.not_valid_before
+C:\Users\nghoa\MITM_Detector_Project\analyzer.py:51: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
+  not_after = cert.not_valid_after
+
+
+================================================================================
+Thời gian: 2025-12-01 14:21:40
+Verdict : LIKELY_MITM
+
+
+=== MITM Certificate Detector ===
+
+Verdict      : LIKELY_MITM
+Risk Score   : 1.0
+Suspicious   : True
+
+Triggered Rules:
+ - R001_FINGERPRINT_MISMATCH
+ - R002_ISSUER_MISMATCH
+ - R003_SAN_MISMATCH
+ - R004_CN_MISMATCH
+
+=== Compare Details ===
+cn_match            : False
+issuer_match        : False
+san_match           : False
+validity_overlap    : True
+fingerprint_match   : False
+
+
+[stderr]
+C:\Users\nghoa\MITM_Detector_Project\analyzer.py:50: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_before_utc.
+  not_before = cert.not_valid_before
+C:\Users\nghoa\MITM_Detector_Project\analyzer.py:51: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
+  not_after = cert.not_valid_after
+
+
+================================================================================
+Thời gian: 2025-12-01 14:22:10
+Verdict : LIKELY_MITM
+
+
+=== MITM Certificate Detector ===
+
+Verdict      : LIKELY_MITM
+Risk Score   : 1.0
+Suspicious   : True
+
+Triggered Rules:
+ - R001_FINGERPRINT_MISMATCH
+ - R002_ISSUER_MISMATCH
+ - R003_SAN_MISMATCH
+ - R004_CN_MISMATCH
+
+=== Compare Details ===
+cn_match            : False
+issuer_match        : False
+san_match           : False
+validity_overlap    : True
+fingerprint_match   : False
+
+
+[stderr]
+C:\Users\nghoa\MITM_Detector_Project\analyzer.py:50: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_before_utc.
+  not_before = cert.not_valid_before
+C:\Users\nghoa\MITM_Detector_Project\analyzer.py:51: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
+  not_after = cert.not_valid_after
+
+
